@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #252525;
+}
+
+.adicionar{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 0 0 1em black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.adicionar p{
+    font-size: 2rem;
+    color: white;
+}
+
+.valor{
+    font-size: 1.5rem;
+    color: #cfcfcf;
+}
+
+input{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+button{
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 1.4rem;
+    background-color: rgb(89, 255, 172);
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.voltar{
+    background-color: darkkhaki;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

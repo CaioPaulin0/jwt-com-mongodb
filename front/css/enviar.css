@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #252525;
+    display: flex;
+    height: 100vh;
+}
+
+.enviar{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 0 0 1em black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.enviar p{
+    font-size: 2rem;
+    color: white;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar span{
+    font-size: 1.5rem;
+    color: #cfcfcf;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px 0;
+}
+
+button{
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 1.4rem;
+    background-color: rgb(89, 255, 172);
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.perfil{
+    background-color: rgb(155, 155, 155);
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
